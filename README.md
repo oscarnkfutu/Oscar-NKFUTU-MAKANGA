@@ -15,7 +15,7 @@
 ---
  <!-- En-tête / Profil -->
         <section class="card">
-       <h1>👨‍💻 NKFUTU MAKANGA OSCAR</h1>
+       <h1>👨‍💻 Oscar NKFUTU MAKANGA - Portfolio</h1>
             <p class="role">Data Manager & Spécialiste en Data Center | Chercheur en Data Science | Développeur Web et Mobile</p>
                            <span><i class="fa-solid fa-location-dot"></i> Kinshasa, RDC</span>
                 <span><i class="fa-solid fa-envelope"></i> <a href="mailto:oscarnkfutu@gmail.com">oscarnkfutu@gmail.com</a></span>
@@ -38,24 +38,31 @@
                 « Anticiper les évolutions informatiques et proposer des solutions technologiques adaptées au service de la science et de la société. »
             </blockquote>
             <p>
-                Ingénieur Informaticien, Data Manager (The Mitchell Group / INRB) et Chef de Travaux dans l’enseignement supérieur, je suis spécialisé dans la gestion, la sécurisation et l’analyse des données massives et complexes (données cliniques, épidémiologiques et institutionnelles).
+                Ingénieur Informaticien, Data Manager (The Mitchell Group / INRB), Chercheur en science des données et Assistant de recherche des
+Etablissements Supérieurs et Universitaires de la République Démocratique du Congo, je suis spécialisé dans la gestion, la sécurisation et l’analyse des données massives et complexes (données cliniques, épidémiologiques et institutionnelles).
             </p>
             <p>
-                Fort d’un parcours académique solide en Sciences Informatiques (UNIKIN) et en Data Science / Ingénierie Mathématique (Master DSIM - Université de Dschang / AUF), j’allie la recherche scientifique appliquée, l’architecture Data et le développement de solutions applicatives adaptées aux enjeux sanitaires et technologiques locaux.
+                Fort d’un parcours académique solide en Génie Informatiques (Université de Kinshasa/RDC) et en Data Science / Ingénierie Mathématique (Master DSIM - Université de Dschang-AUF/ Cameroun), j’allie la recherche scientifique appliquée, l’architecture Data et le développement de solutions applicatives adaptées aux enjeux sanitaires et technologiques locaux.
             </p>
         </section>
-
         <!-- Parcours Académique -->
         <section class="card">
             <h2><i class="fa-solid fa-graduation-cap"></i> Parcours Académique</h2>
             <div class="timeline-item">
-                <h3>Master en Data Science et Ingénierie Mathématique (DSIM) - <em>En Cours</em></h3>
+                <h3>Master en Data Science et Ingénierie Mathématique (DSIM) - <em>En Cours depuis 2026</em></h3>
                 <p>Université de Dschang (Cameroun) en partenariat avec l’AUF</p>
             </div>
             <div class="timeline-item">
-                <h3>Licence (Bac+5) en Sciences Informatiques (2017)</h3>
+                <h3>Licence (Bac+5) en Sciences Informatiques (Année académique 2016-2017)</h3>
                 <p>Université de Kinshasa (UNIKIN)</p>
                 <p class="sub-text"><strong>Mémoire :</strong> Conception et mise en œuvre d’une interconnexion de réseaux distants via la technologie radio HF/UHF (Ubiquiti NanoStation M5).</p>
+            </div>
+             <div class="timeline-item">
+                <h3>Graduat en Sciences Informatiques(Bac+3) en Sciences Informatiques (Année académique 2014-2015)</h3>
+                <p>Université de Kinshasa (UNIKIN)</p>
+                <p class="sub-text"><strong>Travail de fin de cycle:</strong> Conception et réalisation d’une base de
+données pour la gestion du personnel, cas de la Faculté des Sciences
+de l’Université de Kinshasa/RDC.</p>
             </div>
         </section>
 
