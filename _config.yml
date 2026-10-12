@@ -1,6 +1,6 @@
 title: ""
 logo: img/yy.jpg
 description: ""
-show_downloads: false
+show_downloads: true
 theme: jekyll-theme-minimal
 lang: fr
