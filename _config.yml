@@ -2,10 +2,6 @@ title: "Oscar NKFUTU MAKANGA"
 logo: img/yy.jpg
 description: "Data Manager & Spécialiste en Data Center,
 Chercheur en Data Science"
-
-
-
-
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-minimal
 lang: fr
