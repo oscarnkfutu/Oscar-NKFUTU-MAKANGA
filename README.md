@@ -14,9 +14,9 @@
         <i class="fa-solid fa-moon"></i>
     </button>
 
-    <div class="container">
+    <div class="">
         <!-- En-tête / Profil -->
-        <header class="header-card">
+        <header class="">
             <h1>👨‍💻 NKFUTU MAKANGA OSCAR</h1>
             <p class="role">Data Manager & Spécialiste en Data Center | Chercheur en Data Science | Développeur Web et Mobile</p>
             
