@@ -17,9 +17,6 @@
         <section class="card">
        <h1>👨‍💻 NKFUTU MAKANGA OSCAR</h1>
             <p class="role">Data Manager & Spécialiste en Data Center | Chercheur en Data Science | Développeur Web et Mobile</p>
-            <blockquote class="quote">
-                « »
-            </blockquote>
                            <span><i class="fa-solid fa-location-dot"></i> Kinshasa, RDC</span>
                 <span><i class="fa-solid fa-envelope"></i> <a href="mailto:oscarnkfutu@gmail.com">oscarnkfutu@gmail.com</a></span>
                 <span><i class="fa-solid fa-phone"></i> <a href="tel:+243822009500">+243 822 009 500</a></span>
@@ -127,10 +124,12 @@
         </section>
 
         <!-- Pied de page -->
-        <footer>
-            <p>Statistiques du profil : <span class="badge">Très bonne</span></p>
-            <p>Maintenu par <a href="https://github.com/oscarnkfutu" target="_blank">oscarnkfutu</a> | Hébergé sur GitHub Pages</p>
-        </footer>
+      <section class="card">
+            <p>Statistiques du profil : <span class="badge">Excellente </span></p>
+            <p>Maintenu par <a href="https://github.com/oscarnkfutu" target="_blank">oscarnkfutu</a>
+            <p>Aujourd'hui, nous sommes le : <strong id="date-du-jour"></strong></p></p>
+         
+      </section>
     </div>
 
     <!-- Script JavaScript interactif -->
@@ -144,6 +143,17 @@
             const isDarkMode = body.classList.contains('dark-mode');
             toggleBtn.innerHTML = isDarkMode ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
         });
+    </script>
+     <script>
+        // 1. Récupérer la date actuelle de la machine
+        const aujourdhui = new Date();
+
+        // 2. La formater au style français (JJ/MM/AAAA)
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const dateFormatee = aujourdhui.toLocaleDateString('fr-FR', options);
+
+        // 3. L'insérer dans l'élément HTML ayant l'ID "date-du-jour"
+        document.getElementById('date-du-jour').textContent = dateFormatee;
     </script>
 </body>
 </html>
