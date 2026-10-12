@@ -1,4 +1,5 @@
 👨‍💻 NKFUTU MAKANGA OSCAR
+
 Data Manager & Spécialiste en Data Center| Chercheur en Data Science | Développeur Web et Mobile
 
 📍 Kinshasa, République Démocratique du Congo
