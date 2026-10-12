@@ -3,22 +3,20 @@
 Data Manager & Spécialiste en Data Center| Chercheur en Data Science | Développeur Web et Mobile
 
 📍 Kinshasa, République Démocratique du Congo
-✉️ Email : oscarnkfutu@gmail.com | 📞 Tél : +243 822 009 500 / +243 817 676 511
-🔗 GitHub : github.com/votre-username | 🔗 LinkedIn : linkedin.com/in/votre-profil
+✉️ Email : oscarnkfutu@gmail.com | 📞 Tél : +243 822 009 500
+🔗 GitHub : github.com/oscarnkfutu | 🔗 LinkedIn : linkedin.com/in/oscar-nkfutu
 
 🚀 À Propos de Moi
 Ingénieur Informaticien, Data Manager (The Mitchell Group / INRB) et Chef de Travaux dans l'enseignement supérieur, je suis spécialisé dans la gestion, la sécurisation et l'analyse des données massives et complexes (données cliniques, épidémiologiques et institutionnelles).
 
-Fort d'un parcours académique solide en Sciences Informatiques (UNIKIN) et en Data Science / Ingénierie Mathématique (Master DSIM - Université de Dschang / AUF), j'allie la recherche scientifique appliquée, l'architecture DataOps et le développement de solutions applicatives adaptées aux enjeux sanitaires et technologiques locaux.
+Fort d'un parcours académique solide en Sciences Informatiques (UNIKIN) et en Data Science / Ingénierie Mathématique (Master DSIM - Université de Dschang / AUF), j'allie la recherche scientifique appliquée, l'architecture Data et le développement de solutions applicatives adaptées aux enjeux sanitaires et technologiques locaux.
 
 🎓 Parcours Académique
-Master 2 en Data Science et Ingénierie Mathématique (DSIM)
+Master en Data Science et Ingénierie Mathématique (DSIM) en Cours.
 
 Université de Dschang (Cameroun) en partenariat avec l'AUF
 
-Sujet de recherche : Fusion de données épidémiologiques, DataOps et modèles de Machine Learning pour la cartographie des zones à risque de Mpox (Territoire de Kole).
-
-Licence (Bac+5) en Sciences Informatiques
+Licence (Bac+5) en Sciences Informatiques : Année 2017
 
 Université de Kinshasa (UNIKIN)
 
@@ -26,7 +24,7 @@ Mémoire : Conception et mise en œuvre d'une interconnexion de réseaux distant
 
 🛠️ Compétences & Technologies
 📊 Data Management & Data Engineering
-Bases de Données Relationnelles & NoSQL : PostgreSQL, MongoDB, SQL Server, MySQL, Oracle Database, TinyDB, HBase.
+Bases de Données Relationnelles & NoSQL : PostgreSQL, MongoDB, SQL Server, MySQL, Oracle Database, TinyDB.
 
 Langages & Libs Data : Python (Pandas, NumPy, SciPy, Scikit-Learn, PySpark, SQLAlchemy, psycopg2, PyMongo), R, SQL.
 
@@ -86,12 +84,10 @@ Build a Free Website with WordPress — Coursera Project Network (2026)
 
 Programme D-CLIC / OIF — Spécialisation Développement Mobile & UI/UX Figma
 
-📊 Statistiques GitHub
+📊 Statistique: Très bonne
 📬 Me Contacter
-Téléphone : +243 822 009 500 / +243 817 676 511
-
+Téléphone : +243 822 009 500
 Email : oscarnkfutu@gmail.com
-
 Localisation : Kinshasa, République Démocratique du Congo
 
 « Anticiper les évolutions informatiques et proposer des solutions technologiques adaptées au service de la science et de la société. »
