@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-      ----
+
     <!-- Bouton mode sombre / clair -->
     <button id="theme-toggle" aria-label="Changer de thème">
         <i class="fa-solid fa-moon"></i>
     </button>
----
  <!-- En-tête / Profil -->
         <section class="card">
        <h1>👨‍💻 Oscar NKFUTU MAKANGA - Portfolio</h1>
