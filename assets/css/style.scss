@@ -1,17 +1,29 @@
+SCSS
+---
+---
+
+/* Vos styles personnalisés */
+
+
 @import "{{ site.theme }}";
 header {
   padding-bottom: 78px;
 
 }
-
-/* Style de base */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f4f6f9;
-    margin: 0;
-    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
 .container {
