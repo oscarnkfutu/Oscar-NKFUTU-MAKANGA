@@ -7,26 +7,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
+      ----
     <!-- Bouton mode sombre / clair -->
     <button id="theme-toggle" aria-label="Changer de thème">
         <i class="fa-solid fa-moon"></i>
     </button>
-
-    <div class="">
-        <!-- En-tête / Profil -->
-        <header class="">
-            <h1>👨‍💻 NKFUTU MAKANGA OSCAR</h1>
+---
+ <!-- En-tête / Profil -->
+        <section class="card">
+       <h1>👨‍💻 NKFUTU MAKANGA OSCAR</h1>
             <p class="role">Data Manager & Spécialiste en Data Center | Chercheur en Data Science | Développeur Web et Mobile</p>
-            
-            <div class="contact-info">
-                <span><i class="fa-solid fa-location-dot"></i> Kinshasa, RDC</span>
+            <blockquote class="quote">
+                « »
+            </blockquote>
+                           <span><i class="fa-solid fa-location-dot"></i> Kinshasa, RDC</span>
                 <span><i class="fa-solid fa-envelope"></i> <a href="mailto:oscarnkfutu@gmail.com">oscarnkfutu@gmail.com</a></span>
                 <span><i class="fa-solid fa-phone"></i> <a href="tel:+243822009500">+243 822 009 500</a></span>
                 <span><i class="fa-brands fa-github"></i> <a href="https://github.com/oscarnkfutu" target="_blank">GitHub</a></span>
                 <span><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/oscar-nkfutu" target="_blank">LinkedIn</a></span>
-            </div>
-        </header>
+            <p>            </p>
+            <p>           </p>
+        </section>
+  
+
+    <div class="">
+       
+     
 
         <!-- Citation / À propos -->
         <section class="card">
