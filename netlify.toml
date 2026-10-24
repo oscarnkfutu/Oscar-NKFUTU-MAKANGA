@@ -1,0 +1,8 @@
+# Static iPortfolio site: no build step, the repository root is published as-is.
+# Live GitHub activity and articles are served by netlify/functions/github-feed.mts.
+[build]
+  command = "echo 'Site statique - aucune compilation nécessaire'"
+  publish = "."
+
+[functions]
+  directory = "netlify/functions"

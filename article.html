@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Article - Oscar NKFUTU MAKANGA</title>
+  <meta name="description" content="Articles et notes de recherche d'Oscar NKFUTU MAKANGA">
+
+  <link href="img/yy.jpg" rel="icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
+</head>
+
+<body class="article-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="img/yy.jpg" alt="Oscar NKFUTU MAKANGA" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="/" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Oscar NKFUTU</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://github.com/oscarnkfutu" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+      <a href="https://linkedin.com/in/oscar-nkfutu" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:oscarnkfutu@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="/#hero"><i class="bi bi-house navicon"></i>Accueil</a></li>
+        <li><a href="/#about"><i class="bi bi-person navicon"></i>À propos</a></li>
+        <li><a href="/#resume"><i class="bi bi-file-earmark-text navicon"></i>Parcours</a></li>
+        <li><a href="/#portfolio"><i class="bi bi-briefcase navicon"></i>Projets</a></li>
+        <li><a href="/#articles" class="active"><i class="bi bi-journal-text navicon"></i>Articles</a></li>
+        <li><a href="/#contact"><i class="bi bi-envelope navicon"></i>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="page-title light-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0" id="article-title">Article</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/#articles">Articles</a></li>
+            <li class="current" id="article-crumb">Lecture</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="container" data-aos="fade-up">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <p class="article-meta" id="article-meta"></p>
+            <div class="article-body" id="article-body">
+              <p class="feed-placeholder">Chargement de l’article…</p>
+            </div>
+            <p class="mt-5"><a href="/#articles"><i class="bi bi-arrow-left"></i> Retour aux articles</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span id="year"></span> <strong class="px-1 sitename">Oscar NKFUTU MAKANGA</strong></p>
+      </div>
+      <div class="credits">
+        Thème <a href="https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/" target="_blank" rel="noopener">iPortfolio</a> par BootstrapMade
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    (function() {
+      "use strict";
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      const titleEl = document.getElementById('article-title');
+      const crumbEl = document.getElementById('article-crumb');
+      const metaEl = document.getElementById('article-meta');
+      const bodyEl = document.getElementById('article-body');
+      const slug = new URLSearchParams(location.search).get('slug');
+
+      function showError(message) {
+        titleEl.textContent = 'Article introuvable';
+        bodyEl.innerHTML = '';
+        const p = document.createElement('p');
+        p.className = 'feed-placeholder';
+        p.textContent = message;
+        bodyEl.appendChild(p);
+      }
+
+      if (!slug) {
+        showError('Aucun article sélectionné.');
+        return;
+      }
+
+      fetch('/api/github?article=' + encodeURIComponent(slug))
+        .then(res => res.ok ? res.json() : Promise.reject(res.status))
+        .then(article => {
+          document.title = article.title + ' - Oscar NKFUTU MAKANGA';
+          titleEl.textContent = article.title;
+          crumbEl.textContent = article.title;
+
+          const parts = [];
+          if (article.date) {
+            const d = new Date(article.date);
+            parts.push('<i class="bi bi-calendar3"></i> ' + (isNaN(d) ? article.date : d.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })));
+          }
+          if (article.tags && article.tags.length) parts.push('<i class="bi bi-tags"></i> ' + article.tags.join(', '));
+          parts.push('<a href="' + article.sourceUrl + '" target="_blank" rel="noopener"><i class="bi bi-github"></i> Voir sur GitHub</a>');
+          metaEl.innerHTML = DOMPurify.sanitize(parts.join(' &nbsp;·&nbsp; '), { ADD_ATTR: ['target'] });
+
+          bodyEl.innerHTML = DOMPurify.sanitize(marked.parse(article.markdown));
+        })
+        .catch(() => showError('Cet article n’existe pas ou n’est pas disponible pour le moment.'));
+    })();
+  </script>
+</body>
+
+</html>
