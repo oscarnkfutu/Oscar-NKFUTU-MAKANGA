@@ -1,0 +1,226 @@
+/* Portfolio-specific additions on top of the iPortfolio theme (main.css) */
+
+.hero-gradient {
+  background:
+    radial-gradient(circle at 20% 20%, color-mix(in srgb, var(--accent-color), transparent 70%), transparent 45%),
+    radial-gradient(circle at 85% 75%, color-mix(in srgb, var(--accent-color), transparent 80%), transparent 50%),
+    linear-gradient(135deg, #040b14 0%, #0a1a2e 60%, #0e2540 100%);
+}
+
+.hero-gradient:before {
+  background: transparent;
+}
+
+.about .quote-intro {
+  font-style: italic;
+}
+
+.stats .stats-item .stat-num {
+  color: var(--heading-color);
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  margin-left: 60px;
+}
+
+.feed-placeholder {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  font-style: italic;
+  padding: 10px 0;
+}
+
+/* Live badge */
+.live-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #059652;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.live-badge .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #059652;
+  animation: live-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(0.7); }
+}
+
+/* Project / repository cards */
+.project-card,
+.article-card {
+  display: block;
+  height: 100%;
+  background: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  border-radius: 8px;
+  padding: 25px;
+  color: var(--default-color);
+  transition: 0.3s;
+}
+
+.project-card:hover,
+.article-card:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 8px 25px color-mix(in srgb, var(--accent-color), transparent 85%);
+  transform: translateY(-3px);
+}
+
+.project-card h4,
+.article-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.project-card h4 i {
+  color: var(--accent-color);
+  margin-right: 6px;
+}
+
+.project-card .project-org {
+  color: var(--accent-color);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.project-card p:last-child,
+.article-card p:last-child {
+  margin-bottom: 0;
+}
+
+.repo-card p {
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
+
+.repo-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  font-size: 13px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.repo-meta .bi-circle-fill {
+  color: var(--accent-color);
+  font-size: 9px;
+}
+
+/* Articles */
+.article-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-card h4 a {
+  color: var(--heading-color);
+}
+
+.article-card h4 a:hover {
+  color: var(--accent-color);
+}
+
+.article-card .article-date {
+  font-size: 13px;
+  color: var(--accent-color);
+  margin-bottom: 6px;
+}
+
+.article-card p {
+  font-size: 15px;
+  flex-grow: 1;
+}
+
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.article-tags span {
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: color-mix(in srgb, var(--accent-color), transparent 88%);
+  color: var(--accent-color);
+}
+
+.article-card .read-more {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* GitHub activity timeline */
+.github .resume-item h4 i {
+  color: var(--accent-color);
+  margin-right: 6px;
+}
+
+.github .resume-item h4 a {
+  color: inherit;
+}
+
+.github .resume-item h4 a:hover {
+  color: var(--accent-color);
+}
+
+.github .resume-item h4 {
+  text-transform: none;
+}
+
+/* Single article page */
+.article-page .article-meta {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  margin-bottom: 25px;
+}
+
+.article-body {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.article-body img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.article-body pre {
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 16px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.article-body blockquote {
+  border-left: 4px solid var(--accent-color);
+  padding-left: 16px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  font-style: italic;
+}
+
+.article-body table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+.article-body th,
+.article-body td {
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  padding: 8px;
+}
